@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(112, 179, 235);
+    color: #fff;
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    padding: 5px 30px 15px;
+    background: steelblue;
+    border-radius: 10px;
+    border: 2px solid rgb(52, 90, 121);
+    box-shadow: 2px 2px 0px #333;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.form-label {
+    margin: 15px 0 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+input {
+    border-radius: 7px;
+    padding: 0.5rem;
+    outline: none;
+}
